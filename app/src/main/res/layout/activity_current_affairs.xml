@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_EEEEEE"
+    android:fillViewport="true"
+    tools:context=".CurrentAffairsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_36dp"
+            android:text="@string/note_there_are_10_questions_in_total_the_question_consists_of_single_choice_fill_in_the_blanks_and_one_or_more_than_one_choices_answer_s_best_of_luck"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_which_country_s_team_has_won_the_boy_s_title_at_the_wsf_world_junior_squash_team_championship_2018"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/czech_republic"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/usa"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/egypt"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/india"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_the_2018_international_tiger_day_itd_is_observed_on_which_date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer_mm_dd"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_the_completed_draft_of_the_national_register_of_citizens_nrc_has_been_officially_published_by_which_state_government"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/assam"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/arunachal_pradesh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/west_bengal"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/manipur"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_the_museum_for_all_former_prime_ministers_of_india_will_be_constructed_in_which_city"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/gandhinagar"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/new_delhi"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/lucknow"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kolkata"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_which_government_organisation_will_host_investors_conference_for_the_holistic_development_of_islands"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/ministry_of_home_affairs"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/ministry_of_environment_forest_and_climate_change"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/niti_aayog"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/ministry_of_earth_sciences"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_which_state_government_has_launched_smartphone_scheme_sanchar_kranti_yojna_to_the_people_of_the_state"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/madhya_pradesh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/chhattisgarh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/odisha"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/jharkhand"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_which_city_hosted_the_global_disability_summit_2018"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/new_delhi"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/paris"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/london"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/geneva"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_which_citizen_centric_platform_has_been_jointly_launched_by_atal_innovation_mission_aim_and_mygov"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/option8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_which_city_is_hosting_the_men_s_team_event_of_the_world_junior_squash_championships_2018"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/chennai"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kolkata"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/hyderabad"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kochi"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_who_has_won_the_2018_formula_1_german_grand_prix_tournament"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/lewis_hamilton"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/kimi_raikkonen"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/sebastian_vettel"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/valtteri_bottas"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <Button
+            android:id="@+id/answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_EEEEEE"
+    android:fillViewport="true"
+    tools:context=".BiologyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_36dp"
+            android:text="@string/note_there_are_10_questions_in_total_the_question_consists_of_single_choice_fill_in_the_blanks_and_one_or_more_than_one_choices_answer_s_best_of_luck"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_the_gap_between_two_neurons_is_called"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/synapse"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/impulse"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/thyroxin"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/axon"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_which_organ_secretes_insulin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_nephron_is_the_functional_unit_of"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/lungs"
+                android:textColorHint="#000000"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kidney"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/thyroid"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/pancreas"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_auxins_are_present_in_the_of_plant"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bottom"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/middle"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/tip"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/all_of_the_above"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_saffon_is_obtained_from_which_among_the_following_parts_of_the_plant"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/stigma"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/anther"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/stamen"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/pollen"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_the_juice_secreted_by_the_liver_is_called"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/trypsin"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bile"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/lipase"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/pepsin"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_which_is_the_largest_bone_in_human_body"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/femur"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/fibula"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/tibia"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/humerus"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_what_is_the_chemical_name_of_vitamin_a"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:text="@string/_9_which_among_the_following_is_not_a_heriditary_disease"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/thalessemia"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/color_blindness"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/haemophilia"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/leukemia"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_the_bacterium_escherichia_coli_is_found_mainly_in_which_of_the_following"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/human_intestine"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/pteridophytes"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/root_nodules_of_leguminous_plants"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/paddy_fields_for_nitrogen_fixation"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <Button
+            android:id="@+id/answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_EEEEEE"
+    android:fillViewport="true"
+    tools:context=".HistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_36dp"
+            android:text="@string/note_there_are_10_questions_in_total_the_question_consists_of_single_choice_fill_in_the_blanks_and_one_or_more_than_one_choices_answer_s_best_of_luck"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_who_founded_the_ramakrishna_mission_in_1896_to_carry_on_humanitarian_relief_and_social_work"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/ramakrishna_paramahansa"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/swami_dayananda_saraswat"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/swami_vivekananda"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/blavatsky_and_olcott"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_who_was_the_pioneer_of_communism_in_india"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_which_of_the_following_was_the_most_controversial_measure_of_lord_mountbatten"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/partitioning_of_punjab_and_bengal"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/holding_of_a_referendum_in_the_north_west_frontier_province_nwfp"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/setting_up_of_an_executive_council_comprising_of_indians_alone"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/advancing_the_date_of_transfer_of_power_from_june_1948_to_august_15_1947"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_which_among_the_following_great_revolutionaries_was_the_brain_behind_the_chittagong_armoury_raid"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/ganesh_ghosh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/chandrashekhar_azad"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/surya_sen"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/lala_hardayal"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_who_among_the_following_attended_all_the_three_round_table_conferences_held_in_london"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/mahatma_gandhi"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/dr_b_r_ambedkar"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/tez_bahadur_sapru"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/chittaranjan_das"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_the_revolutionary_organisation_abhinav_bharat_society_was_founded_in_1904_by"
+            android:textColor="@color/_cfcfcf"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bhagat_singh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/vinayak_damodar_savarkar"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/barindra_kumar_ghosh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/pulin_behari_das"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_who_among_the_following_was_popularly_known_as_the_frontier_gandhi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/hasrat_mohani"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/maulana_abul_kalam_azad"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/khan_abdul_ghaffar_khan"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/iqbal_khan"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_the_first_british_presidency_in_india_was_established_at"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_which_indian_mass_movement_began_with_the_famous_dandi_march_of_mahatma_gandhi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/khilafat_movement"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/non_cooperation_movement"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/civil_disobedience_movement"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/quit_india_movement"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_which_of_the_following_personalities_were_the_founders_of_the_home_rule_movement"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/bal_gangadhar_tilak"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/annie_besant"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/mohammad_ali_jinnah"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/mahatma_gandhi"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <Button
+            android:id="@+id/answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

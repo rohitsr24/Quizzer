@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+    <style name="CustomActionBarThemeMain" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBarMain</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarMain" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_listmain</item>
+    </style>
+    <style name="CurrentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+    <style name="CustomActionBarTheme" parent="@style/CurrentTheme">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list</item>
+    </style>
+    <style name="GeneralTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+    <style name="CustomActionBarTheme1" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBar1</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar1" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list1</item>
+    </style>
+    <style name="ScienceTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+    <style name="CustomActionBarTheme2" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBar2</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar2" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list2</item>
+    </style>
+    <style name="HistoryTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary5</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+    <style name="CustomActionBarTheme3" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBar3</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar3" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list3</item>
+    </style>
+    <style name="BiologyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+    </style>
+
+    <style name="CustomActionBarTheme4" parent="@style/GeneralTheme">
+        <item name="actionBarStyle">@style/CustomActionBar4</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar4" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_layer_list4</item>
+    </style>
+</resources>

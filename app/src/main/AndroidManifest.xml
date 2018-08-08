@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.guru">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/splash"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:fullBackupContent="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="Topics"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarThemeMain"
+            />
+        
+        <activity
+            android:name=".CurrentAffairsActivity"
+            android:label="Current Affairs"
+            android:theme="@style/CustomActionBarTheme"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"
+            />
+        </activity>
+        <activity
+            android:name=".GeneralKnowledgeActivity"
+            android:label="General Knowledge"
+            android:theme="@style/CustomActionBarTheme1"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"
+            />
+        </activity>
+        <activity
+            android:name=".ScienceActivity"
+            android:label="Science and Technology"
+            android:theme="@style/CustomActionBarTheme2"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"
+            />
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History"
+            android:theme="@style/CustomActionBarTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"
+            />
+        </activity>
+        <activity
+            android:name=".BiologyActivity"
+            android:label="Biology"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme4"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"
+            />
+        </activity>
+    </application>
+
+</manifest>

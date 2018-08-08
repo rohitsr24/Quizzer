@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_EEEEEE"
+    android:fillViewport="true"
+    tools:context=".GeneralKnowledgeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_36dp"
+            android:text="@string/note_there_are_10_questions_in_total_the_question_consists_of_single_choice_fill_in_the_blanks_and_one_or_more_than_one_choices_answer_s_best_of_luck"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_which_of_the_following_rivers_does_not_flow_into_the_arabian_sea"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/tungabhadra"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/sabarmati"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/mandovi"
+                android:textColorHint="#000000"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#000000"
+                android:hint="@string/narmada"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_which_indian_states_ut_has_the_maximum_percentage_of_mangrove_cover_in_the_country"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_the_constitution_of_india_empowers_the_supreme_court_of_india_to_adjudicate_disputes_between_the_centre_and_the_states_through"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/appellate_jurisdiction"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/original_jurisdiction"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/advisory_jurisdiction"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/writ_jurisdiction"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_which_indian_state_has_the_largest_number_of_seats_reserved_for_the_scheduled_tribes_in_the_lok_sabha"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/madhya_pradesh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/rajasthan"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/andhra_pradesh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/gujarat"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_the_temperate_grassland_or_shrub_land_biome_is_commonly_known_as"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/steppe_in_central_asia"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/prairie_in_north_america"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/veld_in_south_america"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/none_of_the_above"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_which_of_the_following_mountain_ranges_form_the_longest_mountain_chain_in_the_world"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/the_rockies_of_north_america"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/the_andes_of_south_america"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/the_transantarctic_range"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/the_great_dividing_range_of_australia"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_sachin_tendulkar_hit_his_100th_international_century_against_which_among_the_following_team"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/sri_lanka"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bangladesh"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/pakistan"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/south_africa"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_name_the_first_indian_to_score_a_century_in_indian_premier_league_ipl"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_which_among_the_following_is_a_qualitative_tool_of_monetary_policy"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bank_rate"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/credit_ceiling"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/credit_rationing"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/cash_reserve_ratio"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_gun_metal_is_the_alloy_of_which_among_the_following"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/copper"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/zinc"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/tin"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/none_of_the_above"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <Button
+            android:id="@+id/answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

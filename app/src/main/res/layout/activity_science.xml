@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_EEEEEE"
+    android:fillViewport="true"
+    tools:context=".ScienceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_36dp"
+            android:text="@string/note_there_are_10_questions_in_total_the_question_consists_of_single_choice_fill_in_the_blanks_and_one_or_more_than_one_choices_answer_s_best_of_luck"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_nuclear_explosive_devices_were_tested_in_india_at"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bangalore"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/sriharikota"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kanchipuram"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/pokharan"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_what_was_the_name_of_the_space_shuttle_that_landed_man_on_the_moon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_what_is_the_name_given_to_india_s_meteorological_research_satellite_met_sat_launched_in_2003"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/vikram_1"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bhaskara_1"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/kalpana_1"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/arya_bhatta_1"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_which_one_of_the_following_is_an_air_to_air_missile"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/astra"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/akash"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/becquerel"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/prithivi"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_which_among_the_following_advantages_of_the_optic_fibers_and_the_copper_wires"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/optic_fibers_are_not_susceptible_to_the_electrical_interference"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/optic_fibers_can_be_used_to_transmit_more_signals_that_copper_wires"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/optic_fibers_can_carry_a_signal_over_a_single_fiber_unlike_the_electricity_which_requires_a_pair_of_copper_wires"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/none_of_the_above"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_of_the_following_indian_satellites_which_one_is_intended_for_long_distance_telecommunications_for_transmitting_tv_programmes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/aryabhatta"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/insat_a"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/rohini"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bhaskara"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_7_who_is_popularly_known_as_missile_man_of_india"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/dr_c_v_raman"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/dr_s_chandrasekhar"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/dr_hargobind_khurana"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/dr_a_p_j_abdul_kalam"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_8_albert_einstein_was_awarded_nobel_prize_for_his_path_breaking_research_and_formulation_of_the"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:backgroundTint="@color/black"
+            android:hint="@string/write_your_answer"
+            android:inputType="text"
+            android:textSize="@dimen/_18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_which_among_the_following_was_first_human_made_plastic"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/bakelite"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/polyethene"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/celluloid"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <RadioButton
+                android:id="@+id/option9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:hint="@string/nylon"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2dp"
+            android:layout_margin="@dimen/_16dp"
+            android:background="@color/_cfcfcf" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10_which_of_the_following_substances_undergo_sublimation_on_heating"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/option10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/iodine"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/napthalene"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/camphor"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <CheckBox
+            android:id="@+id/option10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:hint="@string/none_of_the_above"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_18sp" />
+
+        <Button
+            android:id="@+id/answer10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
